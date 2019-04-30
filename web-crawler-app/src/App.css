@@ -1,3 +1,19 @@
 .App {
+  height: 100vh;
+  width: 100vw;
   text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 4fr 0.5fr;
+}
+
+.Header {
+  grid-row: 1/2;
+}
+
+.UrlSearch {
+  grid-row: 2/3;
+}
+
+.Footer {
+  grid-row: 3/4;
 }
